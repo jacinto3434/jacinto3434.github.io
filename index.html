@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja Inspiração Boticário</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fff;
+    }
+    header {
+      background-color: #a63f82;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .banner {
+      background-image: url('https://via.placeholder.com/1200x400/FFC0CB/000000?text=Promoção+Perfumes');
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .produto {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+    .produto img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .produto h3 {
+      margin: 10px 0 5px;
+    }
+    .produto button {
+      background-color: #a63f82;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f3f3f3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Loja Rosas</h1>
+    <p>Inspirado por Boticário</p>
+  </header>
+
+  <div class="banner">
+    Aproveite nossas promoções!
+  </div>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x200/FFB6C1/000000?text=Floratta" alt="Floratta">
+      <h3>Floratta Rose</h3>
+      <p>R$ 89,90</p>
+      <button>Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x200/FFC0CB/000000?text=Malbec" alt="Malbec">
+      <h3>Malbec</h3>
+      <p>R$ 119,90</p>
+      <button>Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x200/FF69B4/000000?text=Egeo" alt="Egeo">
+      <h3>Egeo Dolce</h3>
+      <p>R$ 99,90</p>
+      <button>Comprar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Site de demonstração feito por Jacinto</p>
+  </footer>
+
+</body>
+</html>
